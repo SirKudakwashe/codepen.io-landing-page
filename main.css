@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 23px;
+}
+
+.main > .left-column {
+  padding: 25px 15px;
+}
+
+.main > .left-column > div > p > span {
+  font-weight: bold;
+}
+
+.main > .left-column > div > p > img {
+  height: 30px;
+}
+
+.main > .left-column > div > .second-paragraph {
+  color: gray;
+  font-size: 21px;
+}
+.main > .left-column > .buttons {
+  margin-top: 52px;
+}
+
+.main > .left-column > .buttons > .btn {
+  background: rgb(98, 226, 98);
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 12px 10px;
+  border-radius: 2px;
+}
+
+.main > .left-column > .buttons > .btn1 {
+  background: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  font-size: 18px;
+  padding: 12px 10px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+.main > .right-column {
+  margin-left: 400px;
+}
+
+.main > .right-column img {
+  height: 400px;
+  width: 520px;
+  box-shadow: -9px 6px 21px 4px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: -9px 6px 21px 4px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: -9px 6px 21px 4px rgba(0, 0, 0, 0.71);
+}
+
+.main > .right-column > p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.main > .right-column > p span {
+  color: rgb(9, 144, 255);
+}

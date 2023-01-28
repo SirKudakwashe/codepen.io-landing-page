@@ -1,0 +1,14 @@
+.footer > div {
+  display: flex;
+}
+
+.footer > div > .box {
+  color: #fff;
+  padding: 25px 15px;
+  flex-grow: 1;
+  border: 1px solid #fff;
+}
+
+.footer > div > .box span {
+  font-weight: bold;
+}
