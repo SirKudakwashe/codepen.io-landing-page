@@ -2,13 +2,14 @@
   display: flex;
 }
 
-.footer > div > .box {
+.footer > div > button {
+  background: none;
   color: #fff;
+  border: 1px solid #fff;
   padding: 25px 15px;
   flex-grow: 1;
-  border: 1px solid #fff;
 }
 
-.footer > div > .box span {
+.footer > div > button span {
   font-weight: bold;
 }
